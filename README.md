@@ -20,3 +20,6 @@ TODO
 
 License
 -------
+
+- [images](./images): refer to [images/LICENSE](./images/LICENSE)
+- Everything else: refer to [LICENSE](./LICENSE)
