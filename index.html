@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>
+        Webcam Livorno Mare - Vista dall'Hotel Rex a Livorno sul mare
+    </title>
+    <meta name="description"
+        content="Cerchi una webcam a Livorno direttamente sul mare? Clicca qui e guarda il mare di Livorno dall'Hotel Rex." />
+    <link rel="icon" type="image/png" href="./images/favicon/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="./images/favicon/favicon.svg" />
+    <link rel="shortcut icon" href="./images/favicon/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="./images/favicon/apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-title" content="Webcam Livorno Mare" />
+    <link rel="manifest" href="./images/favicon/site.webmanifest" />
+    <link href="./style.min.css" rel="stylesheet" type="text/css" />
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/hls.js/1.6.13/hls.min.js"></script>
+    <script type="module" src="./lib/video-logic.min.js"></script>
+</head>
+
+<body style="margin: 0; padding: 0; display: flex; flex-direction: column; align-items: center;">
+    <h1 id="title" style="margin: 0; padding: 1rem 1rem 1rem 1rem; max-width: 100vw; box-sizing: border-box; text-align: center;">Webcam a Livorno sul mare</h1>
+    <div class="videobox" style="position: relative; display: block; padding: 0 2rem 0 2rem; width: 100%; box-sizing: border-box;">
+        <div class="videocontent" style="aspect-ratio: 16/9;">
+            <div class="info" id="info" style="z-index: 1;">
+                <div id="spinner" class="spinner windcatcher" id="windcatcher">
+                    <div class="blade"></div>
+                    <div class="blade"></div>
+                    <div class="blade"></div>
+                    <div class="blade"></div>
+                    <div class="blade"></div>
+                    <div class="blade"></div>
+                    <div class="blade"></div>
+                    <div class="blade"></div>
+                </div>
+            </div>
+            <video id="video-webcam" muted autoplay style="position: relative;" width="100%" height="100%"></video>
+            <img id="image-webcam" alt="Vista dal mare di Livorno" src="https://stream.webcamlivornomare.it/frame.jpg" style="width: 100%; height: 100%; display: none"></img>
+        </div>
+    </div>
+    <h2 style="margin: 0; padding: 1rem 1rem 1rem 1rem; max-width: 100vw; box-sizing: border-box; text-align: center;">Webcam con vista dall'<a href="https://www.hotelrex.it" target="_blank">Hotel Rex a Livorno</a>
+        direttamente sul mare</h2>
+    <p><a href="https://www.hotelrex.it" target="_blank"><img src="./images/Logo2022_h.svg" class="logo" loading="eager"
+                alt="hotel a livorno sul mare" style="width: 450px; aspect-ratio: 450/177; padding: 0 2rem 0 2rem; max-width: 100vw; box-sizing: border-box;" /></a></p>
+    <!-- Cloudflare Web Analytics -->
+    <script defer src='https://static.cloudflareinsights.com/beacon.min.js'
+        data-cf-beacon='{"token": "d39b24b841594ed2934d7635e5e41260"}'>
+    </script>
+    <!-- End Cloudflare Web Analytics -->
+    <script>
+        if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+            const body = document.body;
+            body.style.backgroundColor = "#121212";
+            body.style.backgroundColor = "#202020";
+            body.style.color = "white";
+            document.querySelector('p a img').style.filter = "brightness(0) invert(1)";
+            document.querySelector('h2 a').style.color = "#1c71d8";
+        }
+    </script>
+</body>
+
+</html>
