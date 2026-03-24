@@ -14,11 +14,13 @@ TODO
   - [x] Firefox
   - [ ] Safari
   - [ ] Edge
+  - [x] Opera
 - [ ] Compatibiliy with most mobile browsers
-  - [ ] Chrome
+  - [x] Chrome
   - [x] Firefox
   - [ ] Safari
-  - [ ] Samsung Internet
+  - [x] Samsung Internet
+  - [x] Opera
 - [x] On autoplay fail, retry on click
 - [x] On HLS failure, fallback to jpg snapshots (refreshing)
 - [ ] Error message on backend offline
