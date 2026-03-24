@@ -12,7 +12,7 @@ TODO
 - [ ] Compatibiliy with most desktop browsers
   - [x] Chrome
   - [x] Firefox
-  - [ ] Safari
+  - [x] Safari
   - [ ] Edge
   - [x] Opera
 - [ ] Compatibiliy with most mobile browsers
