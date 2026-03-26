@@ -9,13 +9,13 @@ TODO
 - [x] Implement HLS.js logic
 - [x] Given 3 streams, build one playlist for ABR
 - [x] Fullscreen on click
-- [ ] Compatibiliy with most desktop browsers
+- [x] Compatibiliy with most desktop browsers
   - [x] Chrome
   - [x] Firefox
   - [x] Safari
   - [x] Edge
   - [x] Opera
-- [ ] Compatibiliy with most mobile browsers
+- [x] Compatibiliy with most mobile browsers
   - [x] Chrome
   - [x] Firefox
   - [x] Safari
