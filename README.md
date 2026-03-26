@@ -13,12 +13,12 @@ TODO
   - [x] Chrome
   - [x] Firefox
   - [x] Safari
-  - [ ] Edge
+  - [x] Edge
   - [x] Opera
 - [ ] Compatibiliy with most mobile browsers
   - [x] Chrome
   - [x] Firefox
-  - [ ] Safari
+  - [x] Safari
   - [x] Samsung Internet
   - [x] Opera
 - [x] On autoplay fail, retry on click
